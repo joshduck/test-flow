@@ -1,0 +1,72 @@
+0 silly input [ 'flow' ]
+1 silly flags { _: [ 'run' ], scope: '@test-flow/a', script: 'flow', args: [] }
+2 verbose rootPath /Users/duckj6g/Projects/test-flow
+3 info version 2.1.2
+4 silly existsSync /Users/duckj6g/Projects/test-flow/VERSION
+5 info scope @test-flow/a
+6 silly initialize attempt
+7 silly initialize success
+8 silly execute attempt
+9 silly runScriptInDir flow [] a
+10 silly getExecOpts { cwd: '/Users/duckj6g/Projects/test-flow/packages/a' }
+11 error flow Errored while running script in '@test-flow/a'
+12 error execute Error: Command failed: npm run flow
+12 error execute npm ERR! code ELIFECYCLE
+12 error execute npm ERR! errno 2
+12 error execute npm ERR! @test-flow/a@1.0.0 flow: `flow check`
+12 error execute npm ERR! Exit status 2
+12 error execute npm ERR!
+12 error execute npm ERR! Failed at the @test-flow/a@1.0.0 flow script.
+12 error execute npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+12 error execute
+12 error execute npm ERR! A complete log of this run can be found in:
+12 error execute npm ERR!     /Users/duckj6g/.npm/_logs/2017-09-01T06_09_30_378Z-debug.log
+12 error execute
+12 error execute > @test-flow/a@1.0.0 flow /Users/duckj6g/Projects/test-flow/packages/a
+12 error execute > flow check
+12 error execute
+12 error execute Error: ../b/index.js:2
+12 error execute   2: const simple = require('a-simple-package');
+12 error execute                             ^^^^^^^^^^^^^^^^^^ a-simple-package. Required module not found
+12 error execute
+12 error execute
+12 error execute Found 1 error
+12 error execute
+12 error execute     at Promise.all.then.arr (/Users/duckj6g/Projects/test-flow/node_modules/execa/index.js:236:11)
+12 error execute     at <anonymous>
+12 error execute     at process._tickCallback (internal/process/next_tick.js:188:7)
+12 error execute  callback with error
+12 error execute  { Error: Command failed: npm run flow
+12 error execute npm ERR! code ELIFECYCLE
+12 error execute npm ERR! errno 2
+12 error execute npm ERR! @test-flow/a@1.0.0 flow: `flow check`
+12 error execute npm ERR! Exit status 2
+12 error execute npm ERR!
+12 error execute npm ERR! Failed at the @test-flow/a@1.0.0 flow script.
+12 error execute npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+12 error execute
+12 error execute npm ERR! A complete log of this run can be found in:
+12 error execute npm ERR!     /Users/duckj6g/.npm/_logs/2017-09-01T06_09_30_378Z-debug.log
+12 error execute
+12 error execute > @test-flow/a@1.0.0 flow /Users/duckj6g/Projects/test-flow/packages/a
+12 error execute > flow check
+12 error execute
+12 error execute Error: ../b/index.js:2
+12 error execute   2: const simple = require('a-simple-package');
+12 error execute                             ^^^^^^^^^^^^^^^^^^ a-simple-package. Required module not found
+12 error execute
+12 error execute
+12 error execute Found 1 error
+12 error execute
+12 error execute     at Promise.all.then.arr (/Users/duckj6g/Projects/test-flow/node_modules/execa/index.js:236:11)
+12 error execute     at <anonymous>
+12 error execute     at process._tickCallback (internal/process/next_tick.js:188:7)
+12 error execute   stack: 'Error: Command failed: npm run flow\nnpm ERR! code ELIFECYCLE\nnpm ERR! errno 2\nnpm ERR! @test-flow/a@1.0.0 flow: `flow check`\nnpm ERR! Exit status 2\nnpm ERR! \nnpm ERR! Failed at the @test-flow/a@1.0.0 flow script.\nnpm ERR! This is probably not a problem with npm. There is likely additional logging output above.\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /Users/duckj6g/.npm/_logs/2017-09-01T06_09_30_378Z-debug.log\n\n> @test-flow/a@1.0.0 flow /Users/duckj6g/Projects/test-flow/packages/a\n> flow check\n\nError: ../b/index.js:2\n  2: const simple = require(\'a-simple-package\');\n                            ^^^^^^^^^^^^^^^^^^ a-simple-package. Required module not found\n\n\nFound 1 error\n\n    at Promise.all.then.arr (/Users/duckj6g/Projects/test-flow/node_modules/execa/index.js:236:11)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)',
+12 error execute   code: 2,
+12 error execute   killed: false,
+12 error execute   stdout: '\n> @test-flow/a@1.0.0 flow /Users/duckj6g/Projects/test-flow/packages/a\n> flow check\n\nError: ../b/index.js:2\n  2: const simple = require(\'a-simple-package\');\n                            ^^^^^^^^^^^^^^^^^^ a-simple-package. Required module not found\n\n\nFound 1 error\n',
+12 error execute   stderr: 'npm ERR! code ELIFECYCLE\nnpm ERR! errno 2\nnpm ERR! @test-flow/a@1.0.0 flow: `flow check`\nnpm ERR! Exit status 2\nnpm ERR! \nnpm ERR! Failed at the @test-flow/a@1.0.0 flow script.\nnpm ERR! This is probably not a problem with npm. There is likely additional logging output above.\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /Users/duckj6g/.npm/_logs/2017-09-01T06_09_30_378Z-debug.log\n',
+12 error execute   failed: true,
+12 error execute   signal: null,
+12 error execute   cmd: 'npm run flow',
+12 error execute   timedOut: false }
